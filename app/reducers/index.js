@@ -1,11 +1,14 @@
 // @flow
 import { combineReducers } from 'redux';
 import { routerReducer as router } from 'react-router-redux';
-import counter from './counter';
+import { reducer as toastr} from 'react-redux-toastr';
+
+import sunburst from './sunburst';
 
 const rootReducer = combineReducers({
-  counter,
   router,
+  sunburst,
+  toastr,
 });
 
 export default rootReducer;

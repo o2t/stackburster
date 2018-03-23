@@ -8,6 +8,6 @@ Object {
 
 exports[`actions should increment should create increment action 1`] = `
 Object {
-  "type": "INCREMENT_COUNTER",
+  "type": "PARSE_STACKS",
 }
 `;

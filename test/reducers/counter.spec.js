@@ -7,7 +7,7 @@ describe('reducers', () => {
       expect(counter(undefined, {})).toMatchSnapshot();
     });
 
-    it('should handle INCREMENT_COUNTER', () => {
+    it('should handle PARSE_STACKS', () => {
       expect(counter(1, { type: INCREMENT_COUNTER })).toMatchSnapshot();
     });
 

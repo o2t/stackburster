@@ -10,7 +10,7 @@ export default class App extends React.Component<Props> {
 
   render() {
     return (
-      <div>
+      <div id={"app"}>
         {this.props.children}
       </div>
     );
